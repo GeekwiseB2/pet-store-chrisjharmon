@@ -5,11 +5,135 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<title>Pet Store</title>
 	<link rel="stylesheet" href="css/bootstrap.min.css">
-	<link rel="stylesheet" href="css/font-awesome.min.css">
+	<!-- <link rel="stylesheet" href="css/font-awesome.min.css"> -->
 	<link rel="stylesheet" href="css/styles.css">
+	<link href="https://fonts.googleapis.com/css?family=Lobster" rel="stylesheet">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css">
 
 </head>
 <body>
+	<div class="container">  <!-- nav container-->
+		<div class="row">
+			<ul class="nav nav-pills pull-right"> <!-- nav opens-->
+  			<li role="presentation"><a href="index.html">Home</a></li>
+  			<li role="presentation"><a href="#">Products</a></li>
+  			<li role="presentation"><a href="contact.html">Contact Us</a></li>
+			</ul> <!-- nav closes-->
+			<img src="img/petstore_logo.png" alt="Petstore Logo" class="logo pull-left">
+			<h1 class="logo-text">Pet Store</h1>
+		</div>
+	</div> <!-- end nav container-->
+	<div class="container-fluid"><!-- jumbotron container -->
+		<div class="row">
+			<div class="jumbotron">
+  			<h1 class="action-call text-center">The products they love. The prices that you like.</h1>
+			</div>
+		</div>
+	</div><!-- end jumbotron container-->
+	<div class="container">
+		<div class="row">
+			<div class="col-md-8">
+				<div class="row" id="featured-section">
+					<h1 class="featured">featured</h1>
+					<p class="text-justify">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatem quidem, veniam quia eveniet neque, distinctio suscipit aliquam nobis nemo qui ratione iste unde, est maxime facilis quo. Fugiat, sunt, quod. </p>
+				</div>
+				<div class="row">
+					<div class="col-md-4"><!-- start of first product -->
+						<div class="row">
+					  	<div class="col-xs-6 col-md-12">
+					    	<div class="thumbnail">
+					      	<img src="img/product1.jpg" alt="dog bowl" class="img-responsiveproduct-pic">
+					      	<div class="caption product-caption">
+					        	<h4>Dog Bowl</h4>
+					        	<p>The best dog bowl for your dog.</p>
+					        	<p>
+											<a href="#" class="btn btn-primary purchase-button" role="button">Purchase Now</a>
+										</p>
+					      	</div>
+					    	</div>
+					  	</div>
+						</div>
+					</div><!-- end of first product -->
+					<div class="col-md-4"><!-- start of second product -->
+						<div class="row">
+	  					<div class="col-xs-6 col-md-12">
+						    <div class="thumbnail">
+						      <img src="img/product2.jpg" alt="..." class="img-responsiveproduct-pic">
+						      <div class="caption product-caption">
+						  			<h4>Cat Toy</h4>
+						        <p>The best cat toy for your favorite cat.</p>
+						        <p>
+											<a href="#" class="btn btn-primary purchase-button" role="button">Purchase Now</a>
+										</p>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div><!-- end of second product -->
+					<div class="col-md-4"><!-- start of third product -->
+						<div class="row">
+  						<div class="col-xs-6 col-md-12">
+    						<div class="thumbnail">
+      						<img src="img/product3.jpg" alt="..." class="img-responsiveproduct-pic">
+      						<div class="caption product-caption">
+        						<h4>Parrot Stuff</h4>
+        						<p>The best parrot stuff for your parrot.</p>
+     	 	 	 					<p>
+											<a href="#" class="btn btn-primary purchase-button" role="button">Purchase Now</a>
+										</p>
+      						</div>
+    						</div>
+  						</div>
+						</div>
+					</div><!-- end of third product -->
+				</div>
+			</div>
+			<div class="col-md-offset-1 col-md-3"><!-- start of services -->
+				<div class="row">
+					<h1 class="featured text-center">services</h1>
+				</div>
+				<div class="row">
+					<ul class="nav nav-pills nav-stacked">
+					  <li role="presentation">
+							<a href="#" class="services-tab text-center">adopt a dog</a>
+							<p class="services-paragraph text-center">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Officiis, nemo!</p>
+						</li>
+					  <li role="presentation">
+							<a href="#" class="services-tab text-center">adopt a cat</a>
+							<p class="services-paragraph text-center">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quos, aliquid!</p>
+						</li>
+					  <li role="presentation">
+							<a href="#" class="services-tab text-center">adopt a fish</a>
+							<p class="services-paragraph text-center">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sint, impedit.</p>
+						</li>
+					</ul>
+				</div>
+			</div><!-- end of services -->
+		</div>
+	</div>
+
+	<footer class="container-fluid">
+		<div class="row">
+			<div class="col-md-9 col-xs-12" id="footer-contents">
+				<div class="col-md-3 col-xs-12">
+					<img src="img/petstore_logo.png" alt="Pet Store Footer Logo" class="center-block" id="footer-logo">
+				</div>
+				<div class="col-md-3 col-xs-12 footer-border">
+					<address>
+						Pet Store <br>
+						Fresno, CA <br>
+						info@petstore.com
+					</address>
+				</div>
+				<div class="col-md-3 col-xs-12 footer-border">
+					<a href=""><i class="fa fa-twitter" aria-hidden="true"></i>Twitter</a><br>
+					<a href=""><i class="fa fa-facebook" aria-hidden="true"></i>Facebook</a><br>
+					<a href=""><i class="fa fa-linkedin" aria-hidden="true"></i>Linkedin</a>
+				</div>
+			</div>
+		</div>
+	</footer>
+
 	<!-- scripts -->
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
 	<script src="js/bootstrap.min.js"></script>

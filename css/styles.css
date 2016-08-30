@@ -1,0 +1,119 @@
+@import 'https://fonts.googleapis.com/css?family=Raleway';
+
+/* UNIVERSAL */
+body {
+  font-family: 'Raleway', sans-serif;
+}
+/* HEADER */
+.logo {
+  width: 90px;
+}
+
+.logo-text {
+  font-family: 'Lobster', cursive;
+  color: #f48057;
+}
+
+/* JUMOBTRON SECTION */
+.jumbotron {
+  background-image: url('../img/hero.jpg');
+  height: 450px;
+  background-position: center;
+  background-size: 100%
+}
+
+.action-call {
+  color: #fff !important;
+  font-size: 35px !important;
+  font-weight: 200;
+  text-transform: uppercase;
+  margin-top: 10px;
+}
+
+/* FEATURED PRODUCTS */
+.thumbnail {
+  background: #edf1f4;
+}
+
+.product-pic {
+  padding: 10px;
+}
+
+.purchase-button {
+  background: #5bc0de;
+  font-size: 12px;
+}
+
+.product-caption {
+  padding: 15px !important;
+}
+
+.product-caption h4 {
+  font-weight: bold;
+}
+
+#featured-section {
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
+.featured {
+  text-transform: uppercase;
+  font-weight: bold;
+}
+
+/* FEATURED SERVICES */
+
+.services-tab {
+  text-transform: uppercase;
+  font-weight: bold;
+
+}
+
+.services-tab:hover {
+  color: #FF827B;
+}
+
+.services-paragraph {
+  margin-bottom: 10px;
+}
+
+/* FOOTER */
+
+footer {
+  background-color: #000;
+  min-height: 150px;
+  color: #fff;
+}
+
+#footer-logo {
+  height: 100px;
+}
+
+.footer-border {
+  border-left: 1px solid #333;
+  padding: 20px;
+}
+
+address {
+  color: #fff;
+  padding-top: 20px 0px;
+}
+
+#footer-contents {
+  margin-top: 15px;
+}
+
+.fa {
+  color: #fff;
+  margin-right: 5px;
+}
+
+.footer-border a {
+  color: #fff;
+}
+
+.footer-border a:hover {
+  color: #FF827B;
+  text-decoration: none !important;
+}
